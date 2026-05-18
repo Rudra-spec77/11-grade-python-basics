@@ -3,13 +3,13 @@ num2=int(input("enter no.2="))
 op=input("enter operator")
 if op=='+':
     print(num1+num2)
-if op=='-':
+elif op=='-':
     print(num1-num2)
-if op=='*':
+elif op=='*':
     print(num1*num2)
-if op=='/':
+elif op=='/':
     print(num1/num2)
-if op=='**':
+elif op=='**':
     print(num1**num2)
 else:
     print('invalid input')
